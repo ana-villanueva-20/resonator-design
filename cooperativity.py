@@ -4,8 +4,8 @@ cmap = plt.cm.get_cmap("Reds", 10)
 
 ystart, xstart, yend, xend, ysize, xsize = -0.5, -0.5, 0, 0.5, 501, 1001
 scaling = (28e9*np.pi)/(2*np.pi)/9.5e10
-kappa = 1e6
-gamma = 1e6
+kappa = 50e3
+gamma = 10e6
 loc_g0 = 'C:\\Users\\avillanueva\\Documents\\resonator-design\\data_files\\80nm_double.txt'
 loc_implantation = 'C:\\Users\\avillanueva\\Documents\\resonator-design\\data_files\\implantation_profiles\\20keV.txt'
 
